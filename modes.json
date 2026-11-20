@@ -1,0 +1,16 @@
+{
+  "keepAlways": ["1Password", "Spotify"],
+  "modes": [
+    { "name": "Study", "accent": "#22D3EE", "powerPlan": "balanced",
+      "apps": [ { "name": "Notepad", "path": "notepad.exe" } ] },
+    { "name": "Development", "accent": "#8B5CF6", "powerPlan": "performance",
+      "apps": [ { "name": "Paint", "path": "mspaint.exe" } ] },
+    { "name": "Training", "accent": "#10B981", "powerPlan": "balanced",
+      "apps": [ { "name": "Notepad", "path": "notepad.exe" },
+                { "name": "Paint", "path": "mspaint.exe" } ] },
+    { "name": "Gaming", "accent": "#EF4444", "powerPlan": "performance",
+      "apps": [ { "name": "Calculator", "path": "calc.exe", "processName": "CalculatorApp" } ] },
+    { "name": "Browsing", "accent": "#F59E0B", "powerPlan": "balanced",
+      "apps": [] }
+  ]
+}
